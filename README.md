@@ -16,7 +16,9 @@ While predicting words ,when we have the context of one or more previous charact
 possible sequence of next characters are considered ,and probability of the corresponding
 word is computed ,until adding further characters results in very low probability. Then the top k
 words with highest computed probability are returned.
+# Files description
+The ngram.py implements the ngram model training, and userinterace.py implements a command line interface to auto predict words while typing content based on ngram model.
 
-Data collection: Number of letters typed, tab presses, average number of letters typed
+# Analysis data display: Number of letters typed, tab presses, average number of letters typed
 per word and average number of tab presses per word are calculated and displayed on the
 screen.
